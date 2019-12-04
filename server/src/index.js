@@ -14,7 +14,7 @@ app.use(bodyParser.urlencoded({
 }));
 
 let databaseConnection = "Waiting for Database response...";
-mongoose.connect("mongodb://mongodb:27017/test", {
+mongoose.connect("mongodb://database:27017/test", {
   useUnifiedTopology: true,
   useNewUrlParser: true
 });
