@@ -16,7 +16,7 @@ const Edit = ({ todoId }) => {
                 alert(err)
             }
         })()
-    }, [])
+    }, [todoId])
 
     const updateTodo = (data) => {
         (async () => {

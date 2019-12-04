@@ -2,7 +2,6 @@ import React from 'react'
 import { ListGroup, Row, Col, Button } from 'react-bootstrap'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faEdit, faTrashAlt } from '@fortawesome/free-solid-svg-icons'
-import * as TodoService from 'Services/TodoService'
 import { Link } from '@reach/router'
 
 const TodoListItem = ({ todo, handleDelete }) => {
